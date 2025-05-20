@@ -1,0 +1,92 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color:#d9e2e8;
+}
+
+.container {
+  max-width:600px;
+  margin:100px auto;
+  padding: 0 20px;
+}
+
+.card {
+  background-color:white;
+  margin: 20px 0;
+  padding: 20px 30px 20px;
+  box-shadow: 0px, 4px, 5px, rgba(0, 0, 0, 0.1);
+  border-radius:10px;
+
+}
+.card-1{
+  /* background-image: url(./images/sporty.png); */
+  background: #fff url(./images/sporty.png) no-repeat center right/200px;
+
+}
+.card-2{
+  /* background-image: url(./images/sporty.png); */
+  background: #fff url(./images/casual.png) no-repeat center right/200px;
+
+}
+.card-3{
+  /* background-image: url(./images/sporty.png); */
+  background: #fff url(./images/formal.png) no-repeat center right/200px;
+
+}
+
+.card-1 h1 {
+  color: #e30553;
+  margin-bottom:20px;
+}
+.card-2 h1 {
+  color: #034bad;
+  margin-bottom:20px;
+
+}
+.card-3 h1 {
+  color: #512b22;
+  margin-bottom:20px;
+
+}
+
+.card-1 p{
+  margin-bottom: 30px;
+}
+
+.card-2 p{
+  margin-bottom: 30px;;
+}
+.card-3 p{
+  margin-bottom: 30px;;
+}
+
+.card a {
+  margin-bottom:20px;
+  text-decoration: none;
+  border-radius:10px;
+
+}
+.card-1 a {
+  background-color: #e30553;
+  color:white;
+  padding:10px 20px 10px 20px;
+  
+}
+.card-2 a {
+  background-color: #034bad;
+  color:white;
+  padding:10px 20px 10px 20px;
+  
+}
+.card-3 a {
+  background-color: #512b22;
+  color:white;
+  padding:10px 20px 10px 20px;
+  
+}
+
