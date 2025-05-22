@@ -1,0 +1,109 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'montserrat',sans-serif;
+    background-color:blue;
+    padding:10px;
+}
+
+.container{
+    background-color:#f8fafe;
+    margin:100px auto;
+    padding:30px;
+    border-radius: 30px;
+    text-align:center;
+    margin-left: 100px auto;
+}
+
+.btn {
+    display:block;
+    text-decoration: none;
+    /* margin:20px; */
+    padding:20px;
+    background-color: #f8fafe;
+    color:black;
+    text-transform: uppercase;
+    margin:30px;
+}
+
+.btn-primary{
+    color:white;
+    background-color: #27264b;
+}
+
+.btn:hover{
+    background-color: #27264b;
+    color:white;
+}
+.btn-primary:hover{
+    background-color: #f3f3fa;
+    color:#27264b;
+}
+ul{
+    list-style: none;
+}
+.pricing{
+    background-color: white;
+    display:flex;
+    justify-content: space-between;
+    font-weight:bold;
+
+    /* flex-wrap:wrap; */
+    
+}
+.card {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    border-radius: 30px;
+    padding:30px;
+    gap:30px;
+    margin:10px;
+}
+.card h2{
+    background-color: #f8fafe;
+    padding:20px;
+    text-transform: uppercase;
+
+}
+.card-pro h2{
+    color:#f8fafe;
+    background:linear-gradient(to right,rgb(42, 122, 242),rgb(240, 37, 240))
+}
+.card-enterprise h2{
+    color:#f8fafe;
+    background:linear-gradient(to right,rgb(224, 117, 9),rgb(242, 186, 81))
+}
+.price{
+    margin:20px;
+    font-size:30px;
+}
+.price span{
+    font-size:18px;
+
+}
+.price sup{
+    font-size:18px;
+
+}
+.price-info{
+    margin:10px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+
+
+}
+
+.main-text{
+    font-weight:300px;
+    margin:20px;
+}
+ul{
+    margin-top:30px;
+    text-align:left;
+}
+i{
+    color:green;
+}
